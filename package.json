@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/lloydwatkin/ikettle",
   "dependencies": {
+    "debug": "^2.1.0",
     "node-libnmap": "^0.1.12"
   },
   "devDependencies": {
