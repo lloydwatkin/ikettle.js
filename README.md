@@ -21,6 +21,7 @@ MIT
 Like it?
 
 Bitcoin: 17cc2cNc343Mg3RbYZmocxXDXmDLARipeM
+
 [![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/lloydwatkin/)
 
 # Usage
