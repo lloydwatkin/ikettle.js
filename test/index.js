@@ -4,11 +4,13 @@ require('should')
 
 describe('Status', function() {
     
-    it('Calling `status` before connecting returns error', function(done) {
+    var IKettle = require('../index')
+
+    it.skip('Calling `status` before connecting returns error', function(done) {
         
-        var iKettle = require('../index')
-        iKettle.emit('status', function(error) {
-            error.should.equal(iKettle.KETTLE_NOT_CONNECTED)
+        var ikettle = new IKettle()
+        ikettle.getStatus(function(error) {
+            error.should.equal(ikettle.KETTLE_NOT_CONNECTED)
             done()
         })
     })
