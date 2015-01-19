@@ -3,6 +3,8 @@ iKettle API
 
 A very simple API to the [WIFI Kettle / iKettle](http://smarter.am/).
 
+**Requires nodejs >=0.11**
+
 [![Build
 Status](https://travis-ci.org/lloydwatkin/ikettle.js.svg?branch=master)](https://travis-ci.org/lloydwatkin/ikettle.js)
 [![GitHub version](https://badge.fury.io/gh/lloydwatkin/ikettle.js.svg)](http://badge.fury.io/gh/lloydwatkin%2Fikettle.js)

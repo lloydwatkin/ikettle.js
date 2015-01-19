@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lloydwatkin/ikettle.git"
+    "url": "https://github.com/lloydwatkin/ikettle.js.git"
   },
   "keywords": [
     "ikettle",
@@ -22,9 +22,9 @@
   "author": "Lloyd Watkin <lloyd@evilprofessor.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lloydwatkin/ikettle/issues"
+    "url": "https://github.com/lloydwatkin/ikettle.js/issues"
   },
-  "homepage": "https://github.com/lloydwatkin/ikettle",
+  "homepage": "https://github.com/lloydwatkin/ikettle.js",
   "dependencies": {
     "colors": "^1.0.3",
     "debug": "^2.1.0",
