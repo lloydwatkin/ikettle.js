@@ -7,7 +7,7 @@ A very simple API to the [WIFI Kettle / iKettle](http://smarter.am/).
 
 [![Build
 Status](https://travis-ci.org/lloydwatkin/ikettle.js.svg?branch=master)](https://travis-ci.org/lloydwatkin/ikettle.js)
-[![GitHub version](https://badge.fury.io/gh/lloydwatkin/ikettle.js.svg)](http://badge.fury.io/gh/lloydwatkin%2Fikettle.js)
+[![npm version](https://badge.fury.io/js/kettle.js.svg)](http://badge.fury.io/js/kettle.js)
 [![Dependency Status](https://david-dm.org/lloydwatkin/ikettle.js.svg?theme=shields.io)](https://david-dm.org/lloydwatkin/ikettle.js)
 [![devDependency Status](https://david-dm.org/lloydwatkin/ikettle.js/dev-status.svg?theme=shields.io)](https://david-dm.org/lloydwatkin/ikettle.js#info=devDependencies)
 
