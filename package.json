@@ -1,6 +1,6 @@
 {
   "name": "ikettle",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A nodejs wrapper for the ikettle",
   "main": "index.js",
   "scripts": {
