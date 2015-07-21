@@ -183,7 +183,7 @@ ikettle.on('removed', function() {
 
 ```javascript
 ikettle.on('overheat', function() {
-  console.log('Kettle body removed')
+  console.log('Kettle overheating')
 })
 ```
 
