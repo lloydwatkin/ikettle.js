@@ -8,12 +8,12 @@ var ikettle = new iKettle()
 
 ikettle.on('boiling', function() {
     console.log('Kettle is boiling'.green)
-    ikettle.setTemperature(100, function(error) {
+    ikettle.setTemperature(65, function(error) {
         if (error) {
             console.log(error.red)
             process.exit(1)
         }
-        ikettle.off()
+       // ikettle.off()
     })
 })
 
@@ -41,8 +41,5 @@ ikettle.discover(function(error, success) {
    if (error) {
        console.log('Could not get kettle connection'.red, error.red)
        process.exit(1)
-   }
-   ikettle.getStatus(function(error, status) {
-       ikettle.boil()
-   })
+   }  
 })

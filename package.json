@@ -28,7 +28,8 @@
   "dependencies": {
     "colors": "^1.0.3",
     "debug": "^2.1.0",
-    "node-libnmap": "^0.1.12"
+    "scan-neighbors": "0.0.3",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
