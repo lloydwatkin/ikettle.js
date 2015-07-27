@@ -139,7 +139,7 @@ iKettle.prototype.getStatus = function(callback) {
 
 iKettle.prototype.boil = function(callback) {
     if (!this._checkCall(callback)) return
-    this.kettle.write('set sys output 0x04' + this.CR, function() {
+    this.kettle.write('set sys output 0x4' + this.CR, function() {
         if (callback) callback()
     })
 }
