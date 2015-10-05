@@ -17,18 +17,18 @@ describe('Discovery', function() {
 
         it('If creating a socket succeeds', function(done) {
             var discover = proxyquire('../../lib/discover', {PORT: 80, LAN: '192.168.1.2'})
-            discover(function(error, status, host, port) {
+            discover(function(error, kettle) {
                 error.should.equal(null)
-                status.should.be.equal('closed')
+                kettle.should.be.equal('closed')
                 done()
             })
         })
 
         it('If there\'s no devices listening on port 2000 on the network', function(done) {
 
-            var discover = proxyquire('../../lib/discover')
-            discover(function(error, socket) {
-                should.not.exist(socket)
+            var discover = require('../../lib/discover')
+            discover(function(error, kettle) {
+                should.not.exist(kettle)
                 error.should.equal('Kettle not found :(')
                 done()
             })
