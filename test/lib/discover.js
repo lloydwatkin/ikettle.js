@@ -8,16 +8,16 @@ describe('Discovery', function() {
     describe('Scan', function() {
 
         it('If creating a socket fails', function(done) {
-            var checkPort = proxyquire('../../lib/checkPort', {PORT: 0, LAN: 0})
-            checkPort(function(error) {
+            var discover = proxyquire('../../lib/discover', {PORT: 0, LAN: 0})
+            discover(function(error) {
                 error.should.equal(true)
                 done()
             })
         })
 
         it('If creating a socket succeeds', function(done) {
-            var checkPort = proxyquire('../../lib/checkPort', {PORT: 80, LAN: '192.168.1.2'})
-            checkPort(function(error, status, host, port) {
+            var discover = proxyquire('../../lib/discover', {PORT: 80, LAN: '192.168.1.2'})
+            discover(function(error, status, host, port) {
                 error.should.equal(null)
                 status.should.be.equal('closed')
                 done()
