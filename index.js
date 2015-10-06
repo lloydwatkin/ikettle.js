@@ -1,6 +1,6 @@
 'use strict';
 
-var discover = require('./lib/discover')
+var discover = require('./lib/discover' ).discover
   , log = require('debug')('index')
   , EventEmitter = require('events').EventEmitter
 
